@@ -8,16 +8,49 @@ body{
 .parent{
     margin: 30px;
     height: 80vh;
-    width: 80%;
+    width: 70%;
     background-color: white;
     display: flex;
     border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 90px;
 }
 .child1{
-    background-image: url("/assets/images/bg-sidebar-desktop.svg");
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
     width: 300px; 
     background-repeat: no-repeat;
     color:white;
     margin: 10px;
     padding: 20px;
 }
+.child1 ol a {
+    text-decoration: none;
+    color: white;
+  }
+  .child1 ol a:hover{
+      color: rgb(230, 118, 230);
+  }
+  
+  
+  @media screen and (max-width:440px){
+    .parent{
+       display: block;
+       /* margin: 30px; */
+       height: 80vh;
+       /* width: 70%; */
+       background-color: white;
+       border-radius: 10px;
+       position: relative;
+       /* top: 50px; */
+       /* left: 90px; */
+    }
+    .child1{
+      background-image:url("../assets/images/bg-sidebar-mobile.svg");
+      width: 100%;
+      background-repeat: no-repeat;
+      color:white;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
