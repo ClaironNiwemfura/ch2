@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box ;
+    background-color: rgb(206, 196, 196);
+
+}
+.parent{
+    margin: 30px;
+    height: 80vh;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+}
+.child1{
+    background-image: url("/assets/images/bg-sidebar-desktop.svg");
+    width: 300px; 
+    background-repeat: no-repeat;
+    color:white;
+    margin: 10px;
+    padding: 20px;
+}
+.child2{
+    color: rgb(4, 4, 82);
+    padding: 40px;
+    
+    
+}
+.btn{
+    background-color:  rgb(19, 19, 66);
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    border-style: none;
+    float: right;
+    margin: 70px;
+    
+}
+.child2 input{
+width: 300px;
+height: 20px;
+border-color: blue;
+border-radius: 5px;
+
+
+}
