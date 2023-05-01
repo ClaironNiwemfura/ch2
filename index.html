@@ -21,22 +21,27 @@
       <div class="child2">
         <h1>Personal info</h1>
         <p>please provide your name,email address and phone number</p>
-        <div>
-          <label for="text">Name</label><br>
-          <input type="text" placeholder="e.g.stephen king" required><br><br>
-        </div>
-        <div>
-          <label for="text">E-mail Address</label><br>
-          <input type="text"placeholder="e.g.stephenking@lorem.com" required><br><br>
-        </div>
-        <div>
-          <label for="text">Phone number</label><br>
-          <input type="text"placeholder="e.g.+123456780" required><br><br>
-        </div>
-        <a href="page2.html"><button class="btn">Next step</button></a>
-
+        <form id="myForm">
+          <div class="nam">  
+            <label for="text">Name</label><br>
+            <input type="text" id="name" placeholder="e.g.stephen king" required><br><br>
+            <span></span>
+          </div>
+          <div>
+            <label for="text">E-mail Address</label><br>
+            <input type="E-mail"id="email" placeholder="e.g.stephenking@lorem.com" required><br><br>
+            <span></span>
+          </div>
+          <div>
+            <label for="text">Phone number</label><br>
+            <input type="number" id="phonen" placeholder="e.g.+123456780" required><br><br>
+            <span></span>
+          </div>
+          <button class="btn" type="submit">Next step</button>
+       </form>
       </div>
     </div>
   </div>
+  <script src="./scripts/index2.js"></script>
 </body>
 </html>

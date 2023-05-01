@@ -33,7 +33,7 @@ body{
       color: rgb(230, 118, 230);
   }
 .kids{
-    display: flex;
+    display:flex;
 }
 .arc,.adv,.pro{
     border-color: blue;
@@ -65,3 +65,10 @@ body{
     justify-content: center;
     text-indent: 20px;
 }
+.gb a{
+    text-decoration: none;
+    cursor: pointer;
+    color: grey;
+
+}
+
